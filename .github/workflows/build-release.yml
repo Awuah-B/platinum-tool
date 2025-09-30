@@ -10,13 +10,13 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [ubuntu-latest, windows-latest, macos-latest]
+        os: [ubuntu-latest, windows-latest, macos-13]
         include:
           - os: ubuntu-latest
             asset_name: platinum-tool-linux
           - os: windows-latest
             asset_name: platinum-tool-windows.exe
-          - os: macos-latest
+          - os: macos-13
             asset_name: platinum-tool-mac
 
     steps:
