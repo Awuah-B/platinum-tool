@@ -1,0 +1,7 @@
+pytest
+python-dateutil
+astropy
+pandas
+numpy
+joblib
+matplotlib
